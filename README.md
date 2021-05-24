@@ -1,15 +1,68 @@
-Template Repository
+DeepTask Backup Disk Document
 ===========================================================
 
-This is a Template Repository
+
+## SocialRobot
+
+![내부 구조도](./assets/images/markdown_logo.jpg)  
+![로봇 그림](./assets/images/markdown_logo.jpg)  
+
+### PC1(Main)
+로보케어 Base Package가 구동되는 PC [socialrobot_ros](https://github.com/deep-task/socialrobot_ros "깃허브")
+실제 로봇 동작에 필요한 6가지 요소 관장
+* LED(Ear-L,R,Base Wheel)
+* Neck, Waist Joint
+* Arm
+* Speech
+* Base Driving(Tele-Operating)
+* ~~Navigation~~
+
+Disk Label | 날짜 | OS |비고 | 동작 상태
+------------ | ------------- | ------------- | ------------- | ------------- 
+SocialRobot-PC1-1 | 2021.04.02 | Ubuntu Mate, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+SocialRobot-PC1-2 | 2021.04.14 | Ubuntu Mate, 18.04 | 16.04->18.04 업그레이드 테스트 | ![badge](https://img.shields.io/badge/test-failed-red.svg)
+SocialRobot-PC1-3 | 2021.04.28 | Ubuntu Mate, 16.04 | Moveit 설치 및 테스트 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+
+### PC2
+2세부 통합 프레임워크 설치 PC
+DHCP Server, ROS Multimaster, 성격인식기, 
 
 
-## 1. Description
+Disk Label | 날짜 | OS |비고 | 동작 상태
+------------ | ------------- | ------------- | ------------- | ------------- 
+SocialRobot-PC2-1 | 2021.04.28 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
 
-- python 3.7
+
+### Jetson
+
+Disk Label | 날짜 | OS |비고 | 동작 상태
+------------ | ------------- | ------------- | ------------- | ------------- 
+SocialRobot-Jetson-1 | 2021.05.14 | Ubuntu(Nvidia kernel), 18.04 | 4차년도 통합 시나리오 동작 버전, microSD | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
 
 
-## 2. Requirements
+
+
+
+## Integration Server
+![PC1 그림](/assets/images/markdown_logo.jpg)  
+
+### Integration PC
+Disk Label | 날짜 | OS |비고 | 동작 상태
+------------ | ------------- | ------------- | ------------- | ------------- 
+Integration-1 | 2021.04.30 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+
+
+### Simonpic
+
+Disk Label | 날짜 | OS |비고 | 동작 상태
+------------ | ------------- | ------------- | ------------- | ------------- 
+Simonpic1-1 | 2021.04.28 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+Simonpic2-1 | 2021.04.28 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+PSN1-1 | 2021.05.14 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+PSN2-1 | 2021.05.14 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+PSN3-1 | 2021.05.14 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+PSN4-1 | 2021.05.14 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동작 버전 | ![badge](https://img.shields.io/badge/test-passing-brightgreen.svg)
+
 
 ```bash
 sudo pip3 install -r requiremets.txt
@@ -25,7 +78,7 @@ or
 ```bash
 python3 src/main.py
 ```
-
+d
 
 
 ## 4. Markdown Syntax
