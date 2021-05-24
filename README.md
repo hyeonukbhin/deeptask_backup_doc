@@ -10,7 +10,7 @@ DeepTask Backup Disk Document
 ### PC1(Main)
 
 ![badge](https://img.shields.io/badge/OS_ver.-ubuntu--mate--16.04-blue.svg)
-![badge](https://img.shields.io/badge/Disk_Type.-ssd_m.2-blue.svg)
+![badge](https://img.shields.io/badge/Disk_Type-ssd_m.2-blue.svg)
 
 로보케어 Base Package가 구동되는 PC [socialrobot_ros](https://github.com/deep-task/socialrobot_ros "깃허브")
 실제 로봇 동작에 필요한 6가지 요소 관장
@@ -30,7 +30,7 @@ SocialRobot-PC1-3 | 2021.04.28 | Ubuntu Mate, 16.04 | Moveit 설치 및 테스�
 ### PC2
 
 ![badge](https://img.shields.io/badge/OS_ver.-ubuntu--18.04-blue.svg)
-![badge](https://img.shields.io/badge/Disk_Type.-sata-blue.svg)
+![badge](https://img.shields.io/badge/Disk_Type-sata-blue.svg)
 
 
 2세부 통합 프레임워크 구동 PC
@@ -49,7 +49,7 @@ SocialRobot-PC2-1 | 2021.04.28 | Ubuntu, 16.04 | 4차년도 통합 시나리오 
 ### Jetson
 
 ![badge](https://img.shields.io/badge/OS_ver.-ubuntu--nvidia--18.04-blue.svg)
-![badge](https://img.shields.io/badge/Disk_Type.-microSD-blue.svg)
+![badge](https://img.shields.io/badge/Disk_Type-microSD-blue.svg)
 
 
 ETRI 단기적 사회성 인식기
@@ -78,7 +78,7 @@ SocialRobot-Jetson-1 | 2021.05.14 | Ubuntu(Nvidia kernel), 18.04 | 4차년도 �
 ### Integration PC
 
 ![badge](https://img.shields.io/badge/OS_ver.-ubuntu--18.04-blue.svg)
-![badge](https://img.shields.io/badge/Disk_Type.-sata-blue.svg)
+![badge](https://img.shields.io/badge/Disk_Type-sata-blue.svg)
 
 Disk Label | 날짜 | OS |비고 | 동작 상태
 ------------ | ------------- | ------------- | ------------- | ------------- 
@@ -88,7 +88,7 @@ Integration-1 | 2021.04.30 | Ubuntu, 16.04 | 4차년도 통합 시나리오 동�
 ### Simonpic
 
 ![badge](https://img.shields.io/badge/OS_ver.-ubuntu--16.04-blue.svg)
-![badge](https://img.shields.io/badge/Disk_Type.-sata-blue.svg)
+![badge](https://img.shields.io/badge/Disk_Type-sata-blue.svg)
 
 Disk Label | 날짜 | OS |비고 | 동작 상태
 ------------ | ------------- | ------------- | ------------- | ------------- 
