@@ -5,7 +5,7 @@ DeepTask Backup Disk Document
 ## SocialRobot
 
 ![내부 구조도](./assets/images/deeptask_network_structure.png)
-<a href="#"><img src="https://github.com/hyeonukbhin/deeptask_backup/blob/master/assets/images/socialrobot.png" width="400px" alt="sample image"></a>
+<p align="center"><img src="https://github.com/hyeonukbhin/deeptask_backup_doc/blob/master/assets/images/socialrobot.png" width="300px"></p>
 
 ### PC1(Main)
 
